@@ -5,6 +5,9 @@ html, h1, h2, h3, h4, h5, h6, form, fieldset, img {
     padding:0;
     border:0;
 }
+body{
+    margin: 0; 
+}
 ul, dl,dt,dd {
     margin:0;
     padding:0;
@@ -71,6 +74,7 @@ header{
     background-color: #fff;
     padding: 0 5%;
     z-index: 100;
+    box-sizing: border-box;
 }
 .logo{
     font-family: 'Abril Fatface', cursive;
@@ -257,7 +261,7 @@ h2{
 #works{
     background-color: #f0f0f0;
 }
-#web, #graphic {
+#web, #graphic, #pick {
     padding-top: 35px;
 }
 #web > p, #graphic > p{
@@ -303,7 +307,7 @@ button{
     font-weight: 300;
     transition: 0.5s;
 }
-button:hover{
+button:hover, #pick a:hover{
     background-color: #3f3e3e;
     color: #fff;
     font-weight: 300;
