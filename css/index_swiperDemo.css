@@ -142,11 +142,20 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    padding: 0 20px;
 }
-.banner > p{
-    color: var(--text-point);
+/* 배너의 타이핑효과 애니메이션 */
+@keyframes cursor{
+    50%{border-color: transparent;}
+}
+.text{
+    display: table-cell; vertical-align: middle;
+    border-right: 0.05em solid var(--text-point);
+    animation: cursor 0.3s ease infinite;
     font-size: 22px;
     text-align: center;
+    color: var(--text-point);
 }
 .mat{margin-top: 30px;}
 .mab{margin-bottom: 10px;}
