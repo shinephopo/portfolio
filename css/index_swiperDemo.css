@@ -152,7 +152,7 @@ header{
 .text{
     display: table-cell; vertical-align: middle;
     border-right: 0.05em solid var(--text-point);
-    animation: cursor 0.3s ease infinite;
+    animation: cursor 0.2s ease infinite;
     font-size: 22px;
     text-align: center;
     color: var(--text-point);

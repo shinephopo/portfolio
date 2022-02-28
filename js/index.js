@@ -11,4 +11,4 @@ function typing(){
     }
 }
 // 타이핑 속도
-setInterval(typing, 300)
+setInterval(typing, 200)
