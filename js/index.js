@@ -1,3 +1,12 @@
+//progress bar
+window.addEventListener('scroll',function(){
+  var winScroll =  document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height)*100;
+  document.querySelector('#indicator').style.width = scrolled + '%';
+});
+
+
 // document.getElementById('menu_ham').addEventListener('click',function(){
 //             document.getElementById('menu_ham').style.display='none';
 //             document.getElementById('menu_can').style.display='block';
@@ -34,6 +43,24 @@ function typing(){
 }
 // 타이핑 속도
 setInterval(typing, 200);
+
+//fade효과
+$(document).ready(function() {
+  /* 1 */
+  $(window).scroll( function(){
+      /* 2 */
+      $('.fade-effect').each( function(i){
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          /* 3 */
+          if( bottom_of_window > bottom_of_object/2 ){
+              $(this).animate({'opacity':'1'},2000);
+          }
+      }); 
+  });
+});
+
+
 
 // swiper demos
         var swiper = new Swiper(".mySwiper", {
