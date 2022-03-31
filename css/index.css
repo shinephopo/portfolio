@@ -395,3 +395,85 @@ button:hover, #pick a:hover{
     display: block;
     margin: 10px 0;
 }
+@media screen and (max-width:550px){/*최소 ~ 최대 550*/
+    .text{
+        font-size: 1.5rem;
+    }
+    p, #pick p{
+        font-size: 1.2rem;
+    }
+    dl > dd{
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    .history >li > span, .history_recently >span{
+        font-size: 1.15rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    #pick span{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:551px) and (max-width:768px){/*551 ~ 최대 768*/
+    .text{
+        font-size: 1.75rem;
+    }
+    p, #pick p{
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    dl > dd{
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    .history >li > span, .history_recently >span{
+        font-size: 1.25rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    #pick span{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .text{
+        font-size: 1.75rem;
+    }
+    .myphoto{
+        display: inline-block;
+        width: 35%;
+        margin-right: 3%;
+    }
+    .text-box{
+        display: inline-block;
+        width: 60%;
+    }
+    p, #pick p{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    #info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+    }
+    .skill{
+        width: 100%;
+    }
+    .career{
+        width: 100%;
+    }
+    dl > dd{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    .history >li > span, .history_recently >span{
+        font-size: 1.1rem;
+    }
+    .hobby{
+        grid-column: 1/3;
+    }
+}
