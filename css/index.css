@@ -69,6 +69,7 @@ a:hover, a:focus, a:active {
     background-color: #ccc;
     position: fixed;
     z-index: 1000;
+    top: 0;
 }
 .progress-bar{
     width: 0%;
