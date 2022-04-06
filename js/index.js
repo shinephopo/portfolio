@@ -35,7 +35,7 @@ const text = document.querySelector(".text")
 let index = 0;
 
 function typing(){
-    text.textContent += content [index++];
+    text.textContent += content[index++];
     if(index > content.length){
         text.textContent=""
         index = 0;
@@ -88,7 +88,7 @@ $(document).ready(function() {
             }
           });
 
-          //graphic swiper demos
+//graphic swiper demos
         var swiper = new Swiper(".graphicSwiper", {
           slidesPerView: 1,
           spaceBetween: 10,

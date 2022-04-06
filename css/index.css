@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /*css reset*/
+html {
+    scroll-behavior: smooth;
+   }
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {
     margin:0;
     padding:0;
     border:0;
+    color: var(--text-color);
 }
 body{
     margin: 0; 
@@ -300,6 +304,7 @@ h2{
 #works{
     background-color: #f0f0f0;
 }
+#web{position: relative;}
 #web, #graphic, #pick {
     padding-top: 35px;
 }
@@ -336,7 +341,7 @@ h2{
     font-weight: 300;
     margin-bottom: 15px;
 }
-button{
+button, #web a{
     width: 100px; height: 20px;
     background-color: #3f3e3e00;
     border: 1px solid #3f3e3e;
@@ -346,7 +351,7 @@ button{
     font-weight: 300;
     transition: 0.5s;
 }
-button:hover, #pick a:hover{
+button:hover, #pick a:hover, #web a:hover{
     background-color: #3f3e3e;
     color: #fff;
     font-weight: 300;
@@ -571,11 +576,11 @@ button:hover, #pick a:hover{
         margin-bottom: 100px;
     }
     .cont-btn{
-        width: 50%;
+        width: 30%;
         margin-top: 30px;
     }
     #pick > .photo{
-        width: 35%;
+        width: 30%;
         position: absolute;
         top: 20px;
         right: 130px
