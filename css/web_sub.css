@@ -43,6 +43,9 @@
     margin-bottom: 20px;
 }
 /*본문내용*/ 
+.subscript{
+    width: 100%;
+}
 h2{
     font-size: 25px;
 }
@@ -79,6 +82,15 @@ h2{
 .pet-point-color3{
     background-color: #000000;
 }
+.han-point-color1{
+    background-color: #f1e7d1;
+}
+.han-point-color2{
+    background-color: #174186;
+}
+.han-point-color3{
+    background-color: #ffcb5b;
+}
 .point-color > span{display: block;}
 .flex-center{
     display: flex;
@@ -112,6 +124,9 @@ img+p{
     }
     .content{
         position: relative;
+    }
+    .subscript{
+        width: 35%;
     }
     .sub-grid{
         display: grid;
