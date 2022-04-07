@@ -1,7 +1,7 @@
 .content{
     margin-top: 100px;
 }
-/*모달창*/
+/*내부 팝업*/
 .white-bg > img{
     margin: 30px 0;
 }
@@ -27,6 +27,19 @@
     top: 2%; left: 5%;
     width: 60%;
     margin-bottom: 50px;
+}
+/*내부 팝업 디자인*/
+.popup-design{
+    width: 75%;
+    background-color: #aaa;
+}
+.popup-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popup-txt > h2{
+    margin-bottom: 0;
 }
 /*본문내용*/ 
 h2{

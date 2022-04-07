@@ -8,6 +8,7 @@ html, h1, h2, h3, h4, h5, h6, form, fieldset, img {
     padding:0;
     border:0;
     color: var(--text-color);
+    box-sizing: border-box;
 }
 body{
     margin: 0; 
@@ -341,7 +342,7 @@ h2{
     font-weight: 300;
     margin-bottom: 15px;
 }
-.swiper-slide a{
+button, .swiper-slide a{
     display: inline-block;
     width: 120px; height: 20px;
     background-color: #3f3e3e00;
@@ -352,7 +353,7 @@ h2{
     font-weight: 300;
     transition: 0.5s;
 }
-.swiper-slide a:hover, #pick a:hover{
+button:hover, .swiper-slide a:hover, #pick a:hover{
     background-color: #3f3e3e;
     color: #fff;
     font-weight: 300;
