@@ -29,17 +29,18 @@
     margin-bottom: 50px;
 }
 /*내부 팝업 디자인*/
-.popup-design{
-    width: 75%;
-    background-color: #aaa;
-}
+
 .popup-txt{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.popup-txt > h2{
-    margin-bottom: 0;
+.popup-design li{
+    border-bottom: 1px solid #3f3e3e;
+    padding: 20px 0;
+}
+.popup-design li img{
+    margin-bottom: 20px;
 }
 /*본문내용*/ 
 h2{
