@@ -100,8 +100,22 @@ h2{
     width: 100%;
     object-fit: contain;
 }
-.wid160{
-    width: 160px;
+.page{
+    display: inline-block;
+    width: 160px; height: 20px;
+    background-color: #3f3e3e00;
+    border: 1px solid #3f3e3e;
+    border-radius: 30px;
+    font-size: 18px; line-height: 17px;
+    color: var(--text-color);
+    font-weight: 300;
+    text-align: center;
+    transition: 0.5s;
+}
+.page:hover{
+    background-color: #3f3e3e;
+    color: #fff;
+    font-weight: 300;
 }
 .sub-mat{
     margin-top: 50px;
