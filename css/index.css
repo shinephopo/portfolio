@@ -306,9 +306,6 @@ h2{
     background-color: #f0f0f0;
     padding-top: 3vh;
 }
-#web, #graphic, #pick {
-    padding-top: 35px;
-}
 #web > p, #graphic > p{
     margin: 10px 0 30px;
 }
@@ -645,6 +642,7 @@ button:hover, .swiper-slide a:hover, #pick a:hover{
     }
     .title-cover{
         text-align: center;
+        margin: 50px 0 20px;
     }
     #web > p, #graphic > p{
         text-align: center;
