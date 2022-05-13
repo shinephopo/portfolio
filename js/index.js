@@ -30,7 +30,7 @@ $('#menu-cancel').on('click',function(){
 });
         
 //타이핑 효과, 한글자씩 등장
-const content = "디자이너와 소통을 원활하게 할 수 있는 신입 퍼블리셔 신은지입니다."
+const content = "계속해서 발전하고싶은 신입 퍼블리셔 신은지입니다."
 const text = document.querySelector(".text")
 let index = 0;
 

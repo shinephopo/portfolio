@@ -1,0 +1,17 @@
+.myphoto{
+    display: inline-block;
+    width: 20%;
+    margin-right: 3%;
+}
+.myphoto > img {width: 100%;}
+.text-box{
+    display: inline-block;
+    width: 75%;
+}
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.fade-in.apper{
+    opacity: 1;
+}
