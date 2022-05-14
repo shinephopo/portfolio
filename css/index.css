@@ -31,8 +31,7 @@
     animation: cursor 0.2s ease infinite;
     vertical-align: middle;
 }
-.mat{margin-top: 20px;}
-.mab{margin-bottom: 20px;}
+
 .photo{
     width: 100%;
     display: block;
@@ -189,22 +188,7 @@ h2{
     font-weight: 300;
     margin-bottom: 15px;
 }
-button, .swiper-slide a{
-    display: inline-block;
-    width: 120px; height: 20px;
-    background-color: #3f3e3e00;
-    border: 1px solid #3f3e3e;
-    border-radius: 30px;
-    font-size: 18px; line-height: 17px;
-    color: var(--text-color);
-    font-weight: 300;
-    transition: 0.5s;
-}
-button:hover, .swiper-slide a:hover, #pick a:hover{
-    background-color: #3f3e3e;
-    color: #fff;
-    font-weight: 300;
-}
+
 #graphic > ul > li{
     width: 80vw; height: 80vw;
     background-size: cover;
@@ -249,14 +233,6 @@ button:hover, .swiper-slide a:hover, #pick a:hover{
     display: block;
     margin: 10px 0;
 }
-#works-check ~ ul{
-    display: none;
-}
-#works-check:checked ~ ul{
-    display: block;
-}
-#works-check{display: none;}
-.fa-caret-down{margin-left: 10px;}
 @media(min-width:700px){
     .myphoto{
         width: 40%;
@@ -293,6 +269,9 @@ button:hover, .swiper-slide a:hover, #pick a:hover{
         margin-bottom: 50px;
         float: left;
     }
+    .text-box p{
+        margin-top: 10px;
+    }
     #info{
         clear: both;
     }
@@ -310,6 +289,9 @@ button:hover, .swiper-slide a:hover, #pick a:hover{
     }
     .text-box{
         width: 70%;
+    }
+    .text-box p{
+        margin-top: 30px;
     }
     #info{
         display: flex;

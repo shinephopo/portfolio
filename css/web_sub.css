@@ -22,10 +22,8 @@
 .white-bg {
     background: white;
     border-radius: 5px;
-    padding: 30px;;
-    position: absolute;
-    top: 2%; left: 5%;
-    width: 60%;
+    padding: 30px;
+    width: 70%;
     margin-bottom: 50px;
 }
 /*내부 팝업 디자인*/
@@ -41,6 +39,7 @@
 }
 .popup-design li img{
     margin-bottom: 20px;
+    width: 100%;
 }
 /*본문내용*/ 
 .subscript{
@@ -121,12 +120,13 @@ h2{
     font-weight: 300;
 }
 .sub-mat{
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .site-img{
     box-shadow: 1px 2px 10px -2px gray;
     margin-bottom: 20px;
     cursor: pointer;
+    width: 100%;
 }
 p{
     font-size: 1rem;
@@ -136,12 +136,16 @@ p{
 img+p{
     margin: 0  0 20px 0 ;
 }
-@media screen and (min-width:1380px) and (max-width:2600px){
+.btn-section{
+    max-width: 400px;
+}
+@media(min-width:1300px){
     .white-bg{
         left: 15%;
     }
     .content{
-        position: relative;
+        display: flex;
+        justify-content: space-around;
     }
     .subscript{
         width: 35%;
@@ -152,15 +156,9 @@ img+p{
         grid-column-gap: 30px;
     }
     .sub-mat{
-        display: block;
-        width: 30%;
+        width: 56%;
     }
     .site-desgin{
-        position: absolute;
-        top: 0;
-        right: 100px;
         width: 55%;
     }
-    .site-desgin > div{height: 70vh;}
-    
 }

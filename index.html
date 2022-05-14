@@ -28,9 +28,30 @@
     <section class="banner">
         <p><span class="text"></span><span class="cursor"></span></p>
     </section>
-    <div>
-        <script src="js/header.js"></script>
-    </div>
+    <header>    
+        <div class="logo"><a href="index.html">Shine</a></div>
+        <div id="gnb">
+            <i class="fas fa-bars" ></i>
+        </div>
+        <div id="menu-cancel">
+            <i class="fas fa-times"></i>
+        </div>
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#story" target="_self">story</a></li>
+                <li><a href="#info" target="_self">info</a></li>
+                <li>
+                    <input type="checkbox" id="works-check">
+                    <label for="works-check">works<i class="fas fa-caret-down"></i></label>
+                    <ul>
+                        <li><a href="#web" target="_self">web</a></li>
+                        <li><a href="#graphic" target="_self">graphic</a></li>
+                    </ul>
+                </li>
+                <li><a href="#pick">pick me</a></li>
+            </ul>
+        </nav>
+        </header>
     <section id="story" class="content-frame" >
         <div class="myphoto photo mat"><img src="img/photo_ej.jpg" alt="신은지의 증명사진"></div>
         <div class="text-box mat">
