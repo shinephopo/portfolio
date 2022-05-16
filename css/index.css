@@ -11,6 +11,8 @@
 }
 .banner > p{
     text-align: center;
+    word-break: keep-all;
+    width: 80%;
 }
 #story, .skill, .career, .hobby{
     margin-bottom: 50px;
