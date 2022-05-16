@@ -64,6 +64,9 @@ h1~p{
 .second-p{
     margin-top: 20px;
 }
+.text-box p{
+    word-break: keep-all;
+}
 
 /* skill */
 .can{
@@ -205,6 +208,7 @@ h2{
 }
 #graphic  li:hover > a{
     display: flex;
+    border-radius: 5px;
 }
 .cardnews{
     background-image: url('../img/cardnews01.png');
