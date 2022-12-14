@@ -30,7 +30,7 @@ $('#menu-cancel').on('click',function(){
 });
         
 //타이핑 효과, 한글자씩 등장
-const content = "안녕하세요. 전직 웹디자이너 신은지입니다."
+const content = "안녕하세요. 웹디자이너 신은지입니다."
 const text = document.querySelector(".text")
 let index = 0;
 
